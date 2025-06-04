@@ -2,6 +2,8 @@ const dotenv = require('dotenv');
 const express = require('express');
 const cors = require('cors');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { summariseOldMessages } = require('./summarise');
+
 
 dotenv.config();
 const app = express();
@@ -13,21 +15,41 @@ app.use(express.json());
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_API_KEY);
 
 const MAX_MESSAGES = 10;
-// System prompt to guide the AI's behavior whe suing muti-turn conversations
+// System prompt to guide the ai when using muti-turn conversations
 const systemPrompt = "System: You are a helpful and creative chatbot. Continue the conversation naturally.";
 
 app.post('/chat', async (req, res) => {
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+
   try {
     const { messages } = req.body;
-    // Reduce usage of tokens by limiting the 'memory' to the last 10 messages
+    // Reduce usage of tokens by limiting the 'memory' to the last 10 messages (true memory will need a DB)
     const last10Messages = messages.slice(-MAX_MESSAGES);
+
+    // If there are more than MAX_MESSAGES, summarise the older messages
+    let summarisedMessages = '';
+    if (messages.length > MAX_MESSAGES) {
+      summarisedMessages = await summariseOldMessages(messages, MAX_MESSAGES, model);
+    }
+
     const formattedConversation = last10Messages
     .map(m => `${m.sender === 'user' ? 'You' : 'Bot'}: ${m.text}`)
     .join('\n');
 
-    // Construct the full prompt with the system message and conversation history
-    const prompt = `${systemPrompt}.\n${formattedConversation}\n`;
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    // Create the prompt: include the system prompt/summary/formatted conversation
+    let prompt = `${systemPrompt}\n`;
+    if (summarisedMessages !== '') {
+      prompt += `Summary of earlier conversation: ${summarisedMessages}\n`;
+    }
+    prompt += `${formattedConversation}\n`;
+
+    // Tracking the convo memory
+    console.log('================== Summarised Messages ==================');
+    console.log(summarisedMessages);
+    console.log('================== Total Memory (prompt) ==================');
+    console.log(prompt);
+
+    // Send prompt
     const result = await model.generateContent(prompt);
 
     // Strip out the "Bot:" prefix if it exists
@@ -35,6 +57,7 @@ app.post('/chat', async (req, res) => {
     if (botResponse.startsWith("Bot:")) {
       botResponse = botResponse.slice(4).trim();
     }
+
     res.json({ reply: botResponse });
   } catch (error) {
     console.log('Error:', error);
