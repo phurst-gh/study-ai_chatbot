@@ -4,3 +4,85 @@
   padding: 2rem;
   text-align: center;
 }
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.9em;
+  min-width: 300px;
+}
+
+table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+table th,
+table td {
+  border: 1px solid #dddddd;
+  padding: 8px 12px;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+/* Chat */
+.chat-container {
+  max-width: 800px;
+  min-width: 300px;
+}
+
+.chat-container div {
+  border-bottom: #e0ddd6 1px solid;
+}
+.chat-container div:last-child {
+  border-bottom: none;
+}
+
+.chat-container .bot-message {
+  text-align: left;
+}
+
+.chat-container .user-message {
+  text-align: right;
+}
+
+/* Input */
+.input-container {
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.input-container .input-field {
+  padding: 12px 8px;
+  border: 1px solid #cccccc;
+  color: #333333;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.context-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;  
+}
+
+.input-container .context-buttons-container button {
+  background-color: #92b9b2;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
