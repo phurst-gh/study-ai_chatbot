@@ -59,10 +59,11 @@ function App() {
           className="input-field"
         />
 
-      <div className="context-buttons-container">
-        <button onClick={() => setSelectedContext("the-book-of-five-rings")}>The Book of 5 Rings</button>
-        <button onClick={() => setSelectedContext("40k-core-rules")}>Warhammer 40k Core Rules</button>
-      </div>
+        <div className="context-buttons-container">
+          <button onClick={() => setSelectedContext("the-book-of-five-rings")}>The Book of 5 Rings</button>
+          <button onClick={() => setSelectedContext("pokemon")}>Pokedex - Original 151</button>
+          <button onClick={() => setSelectedContext("40k-core-rules")}>40k Core Rules</button>
+        </div>
       </div>
     </div>
   );

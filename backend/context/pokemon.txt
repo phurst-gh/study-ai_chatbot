@@ -1,0 +1,2416 @@
+Pokédex
+
+1
+
+#1 : BULBASAUR
+
+1 #1 : Bulbasaur
+A strange seed was planted on its back at birth. A
+plant sprouts and grows with this Pokémon.
+• Pokémon: Seed.
+• Height: 2’ 4".
+• Weight: 15 lbs.
+
+Figure 1: Bulbasaur (Pokémon number 1).
+
+1
+
+2
+
+#2 : IVYSAUR
+
+2 #2 : Ivysaur
+When the bulb on its back grows large, it appears to
+lose the ability to stand on its hind legs.
+• Pokémon: Seed.
+• Height: 3’ 3".
+• Weight: 29 lbs.
+
+Figure 2: Ivysaur (Pokémon number 2).
+
+2
+
+3
+
+#3 : VENUSAUR
+
+3 #3 : Venusaur
+The plant blooms when it is absorbing solar energy.
+It stays on the move to seek sunlight.
+• Pokémon: Seed.
+• Height: 6’ 7".
+• Weight: 221 lbs.
+
+Figure 3: Venusaur (Pokémon number 3).
+
+3
+
+4
+
+#4 : CHARMANDER
+
+4 #4 : Charmander
+Obviously prefers hot places. When it rains, steam
+is said to sprout from the tip of its tail.
+• Pokémon: Lizard.
+• Height: 2’ 0".
+• Weight: 19 lbs.
+
+Figure 4: Charmander (Pokémon number 4).
+
+4
+
+5
+
+#5 : CHARMELEON
+
+5 #5 : Charmeleon
+When it swings its burning tail, it elevates the temperature to unbearably high levels.
+• Pokémon: Flame.
+• Height: 3’ 7".
+• Weight: 42 lbs.
+
+Figure 5: Charmeleon (Pokémon number 5).
+
+5
+
+6
+
+#6 : CHARIZARD
+
+6 #6 : Charizard
+Spits fire that is hot enough to melt boulders. Known
+to cause forest fires unintentionally.
+• Pokémon: Flame.
+• Height: 5’ 7".
+• Weight: 200 lbs.
+
+Figure 6: Charizard (Pokémon number 6).
+
+6
+
+7
+
+#7 : SQUIRTLE
+
+7 #7 : Squirtle
+After birth, its back swells and hardens into a shell.
+Powerfully sprays foam from its mouth.
+• Pokémon: Tiny.
+• Height: 1’ 8".
+• Weight: 20 lbs.
+
+Figure 7: Squirtle (Pokémon number 7).
+
+7
+
+8
+
+#8 : WARTORTLE
+
+8 #8 : Wartortle
+Often hides in water to stalk its unwary prey. For
+swimming fast, it moves its ears to maintain balance.
+• Pokémon: Turtle.
+• Height: 3’ 3".
+• Weight: 50 lbs.
+
+Figure 8: Wartortle (Pokémon number 8).
+
+8
+
+9
+
+#9 : BLASTOISE
+
+9 #9 : Blastoise
+A brutal Pokémon with pressurized water jets on its
+shell. They are used for high speed tackles.
+• Pokémon: Shellfish.
+• Height: 5’ 3".
+• Weight: 189 lbs.
+
+Figure 9: Blastoise (Pokémon number 9).
+
+9
+
+10
+
+10
+
+#10 : CATERPIE
+
+#10 : Caterpie
+Its short feet are tipped with suction pads that enable
+to tirelessly climb slopes and walls.
+• Pokémon: Worm.
+• Height: 1’ 0".
+• Weight: 6 lbs.
+
+Figure 10: Caterpie (Pokémon number 10).
+
+10
+
+11
+
+11
+
+#11 : METAPOD
+
+#11 : Metapod
+This Pokémon is vunerable to attack while its shell
+is soft, exposing its weak and tender body.
+• Pokémon: Coccoon.
+• Height: 2’ 4".
+• Weight: 22 lbs.
+
+Figure 11: Metapod (Pokémon number 11).
+
+11
+
+12
+
+12
+
+#12 : BUTTERFREE
+
+#12 : Butterfree
+In battle, it flaps its wings at high speed to release
+highly toxic dust into the air.
+• Pokémon: Butterfly.
+• Height: None.
+• Weight: 71 lbs.
+
+Figure 12: Butterfree (Pokémon number 12).
+
+12
+
+13
+
+13
+
+#13 : WEEDLE
+
+#13 : Weedle
+Often found in forests, eating leaves. It has a sharp
+venomous stinger on its head.
+• Pokémon: Hairy.
+• Height: 1’ 0".
+• Weight: 7 lbs.
+
+Figure 13: Weedle (Pokémon number 13).
+
+13
+
+14
+
+14
+
+#14 : KAKUNA
+
+#14 : Kakuna
+Almost incapable of moving, this Pokémon can only
+harden its shell to protect itself from predators.
+• Pokémon: Cocoon.
+• Height: 2’ 0".
+• Weight: 22 lbs.
+
+Figure 14: Kakuna (Pokémon number 14).
+
+14
+
+15
+
+15
+
+#15 : BEEDRILL
+
+#15 : Beedrill
+Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.
+• Pokémon: Poison.
+• Height: 3’ 3".
+• Weight: 65 lbs.
+
+Figure 15: Beedrill (Pokémon number 15).
+
+15
+
+16
+
+16
+
+#16 : PIDGEY
+
+#16 : Pidgey
+A common sight in forests and woods. It flaps its
+wings at ground level to kick up blinding sand.
+• Pokémon: Tiny.
+• Height: 1’ 0".
+• Weight: 4 lbs.
+
+Figure 16: Pidgey (Pokémon number 16).
+
+16
+
+17
+
+17
+
+#17 : PIDGEOTTO
+
+#17 : Pidgeotto
+Very protective of its sprawling territorial area, this
+Pokémon will fiercely peck at any intruder.
+• Pokémon: Bird.
+• Height: 3’ 7".
+• Weight: 66 lbs.
+
+Figure 17: Pidgeotto (Pokémon number 17).
+
+17
+
+18
+
+18
+
+#18 : PIDGEOT
+
+#18 : Pidgeot
+When hunting, it skims the surface of water at high
+speed to pick off unwary prey such as Magikarp.
+• Pokémon: Bird.
+• Height: 4’ 11".
+• Weight: 87 lbs.
+
+Figure 18: Pidgeot (Pokémon number 18).
+
+18
+
+19
+
+19
+
+#19 : RATTATA
+
+#19 : Rattata
+Bites anything when it attacks. Small and very quick,
+it is a common sight in many places.
+• Pokémon: Rat.
+• Height: 1’ 0".
+• Weight: 8 lbs.
+
+Figure 19: Rattata (Pokémon number 19).
+
+19
+
+20
+
+20
+
+#20 : RATICATE
+
+#20 : Raticate
+It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.
+• Pokémon: Rat.
+• Height: 2’ 4".
+• Weight: 41 lbs.
+
+Figure 20: Raticate (Pokémon number 20).
+
+20
+
+21
+
+21
+
+#21 : SPEAROW
+
+#21 : Spearow
+Eats bugs in grassy areas. It has to flap its short
+wings at high speed to stay airborne.
+• Pokémon: Tiny.
+• Height: 1’ 0".
+• Weight: 4 lbs.
+
+Figure 21: Spearow (Pokémon number 21).
+
+21
+
+22
+
+22
+
+#22 : FEAROW
+
+#22 : Fearow
+With its huge and magnificent wings, it can keep
+aloft without ever having to land for rest.
+• Pokémon: Beak.
+• Height: 3’ 11".
+• Weight: 84 lbs.
+
+Figure 22: Fearow (Pokémon number 22).
+
+22
+
+23
+
+23
+
+#23 : EKANS
+
+#23 : Ekans
+Moves silently and steathily. Eats the eggs of birds,
+such as Pidgey and Spearow, whole.
+• Pokémon: Snake.
+• Height: 6’ 7".
+• Weight: 15 lbs.
+
+Figure 23: Ekans (Pokémon number 23).
+
+23
+
+24
+
+24
+
+#24 : ARBOK
+
+#24 : Arbok
+It is rumored that the ferocious warning markings
+on its belly differ from area to area.
+• Pokémon: Cobra.
+• Height: 11’ 6".
+• Weight: 143 lbs.
+
+Figure 24: Arbok (Pokémon number 24).
+
+24
+
+25
+
+25
+
+#25 : PIKACHU
+
+#25 : Pikachu
+When several of these Pokémon gather, their electricity could build and cause lightning storms.
+• Pokémon: Mouse.
+• Height: 1’ 4".
+• Weight: 13 lbs.
+
+Figure 25: Pikachu (Pokémon number 25).
+
+25
+
+26
+
+26
+
+#26 : RAICHU
+
+#26 : Raichu
+Its long tail serves as a ground to protect itself from
+its own high voltage power.
+• Pokémon: Mouse.
+• Height: 2’ 7".
+• Weight: 66 lbs.
+
+Figure 26: Raichu (Pokémon number 26).
+
+26
+
+27
+
+27
+
+#27 : SANDSHREW
+
+#27 : Sandshrew
+Burrows deep underground in arid locations far from
+water. It only emerges to hunt for food.
+• Pokémon: Mouse.
+• Height: 2’ 0".
+• Weight: 26 lbs.
+
+Figure 27: Sandshrew (Pokémon number 27).
+
+27
+
+28
+
+28
+
+#28 : SANDSLASH
+
+#28 : Sandslash
+Curls up into a spiny ball when threatened. It can
+roll while curled up to attack or escape.
+• Pokémon: Mouse.
+• Height: 3’ 3".
+• Weight: 65 lbs.
+
+Figure 28: Sandslash (Pokémon number 28).
+
+28
+
+29
+
+29
+
+#29 : NIDORAN
+
+#29 : Nidoran
+Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns.
+• Pokémon: Poison.
+• Height: 1’ 4".
+• Weight: 15 lbs.
+
+Figure 29: Nidoran (Pokémon number 29).
+
+29
+
+30
+
+30
+
+#30 : NIDORINA
+
+#30 : Nidorina
+The female’s horn develops slowly. Prefers physical
+attacks such as clawing and biting.
+• Pokémon: Poison.
+• Height: 2’ 7".
+• Weight: 44 lbs.
+
+Figure 30: Nidorina (Pokémon number 30).
+
+30
+
+31
+
+31
+
+#31 : NIDOQUEEN
+
+#31 : Nidoqueen
+Its hard scales provide strong protection. It uses its
+hefty bulk to execute powerful moves.
+• Pokémon: Drill.
+• Height: 4’ 3".
+• Weight: 132 lbs.
+
+Figure 31: Nidoqueen (Pokémon number 31).
+
+31
+
+32
+
+32
+
+#32 : NIDORAN
+
+#32 : Nidoran
+Stiffens its ears to sense danger. The larger its horns,
+the more powerful its secreted venom.
+• Pokémon: Poison.
+• Height: 1’ 8".
+• Weight: 20 lbs.
+
+Figure 32: Nidoran (Pokémon number 32).
+
+32
+
+33
+
+33
+
+#33 : NIDORINO
+
+#33 : Nidorino
+An aggressive Pokémon that is quick to attack. The
+horn on its head secretes a powerful venom.
+• Pokémon: Poison.
+• Height: 2’ 11".
+• Weight: 43 lbs.
+
+Figure 33: Nidorino (Pokémon number 33).
+
+33
+
+34
+
+34
+
+#34 : NIDOKING
+
+#34 : Nidoking
+It uses its powerful tail in battle to smash, constrict,
+then break the prey’s bones.
+• Pokémon: Drill.
+• Height: 4’ 7".
+• Weight: 137 lbs.
+
+Figure 34: Nidoking (Pokémon number 34).
+
+34
+
+35
+
+35
+
+#35 : CLEFAIRY
+
+#35 : Clefairy
+Its magical and cute appearance has many admirers.
+It is rare and found only in certain areas.
+• Pokémon: Fairy.
+• Height: 2’ 0".
+• Weight: 17 lbs.
+
+Figure 35: Clefairy (Pokémon number 35).
+
+35
+
+36
+
+36
+
+#36 : CLEFABLE
+
+#36 : Clefable
+A timid fairy Pokémon that is rarely seen. It will run
+and hide the moment it senses people.
+• Pokémon: Fairy.
+• Height: 4’ 3".
+• Weight: 88 lbs.
+
+Figure 36: Clefable (Pokémon number 36).
+
+36
+
+37
+
+37
+
+#37 : VULPIX
+
+#37 : Vulpix
+At the time of its birth, it has just one tail. The tail
+splits from its tip as it grows older.
+• Pokémon: Fox.
+• Height: 2’ 0".
+• Weight: 22 lbs.
+
+Figure 37: Vulpix (Pokémon number 37).
+
+37
+
+38
+
+38
+
+#38 : NINETALES
+
+#38 : Ninetales
+Very smart and very vengeful. Grabbing one of its
+many tails could result in a 1000-year curse.
+• Pokémon: Fox.
+• Height: 3’ 7".
+• Weight: 44 lbs.
+
+Figure 38: Ninetales (Pokémon number 38).
+
+38
+
+39
+
+39
+
+#39 : JIGGLYPUFF
+
+#39 : Jigglypuff
+When its huge eyes light up, it sings a mysteriously
+soothing melody that lulls its enemies to sleep.
+• Pokémon: Balloon.
+• Height: 1’ 8".
+• Weight: 12 lbs.
+
+Figure 39: Jigglypuff (Pokémon number 39).
+
+39
+
+40
+
+40
+
+#40 : WIGGLYTUFF
+
+#40 : Wigglytuff
+The body is soft and rubbery. When angered, it will
+suck in air and inflate itself to an enormous size.
+• Pokémon: Balloon.
+• Height: 3’ 3".
+• Weight: 26 lbs.
+
+Figure 40: Wigglytuff (Pokémon number 40).
+
+40
+
+41
+
+41
+
+#41 : ZUBAT
+
+#41 : Zubat
+Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.
+• Pokémon: Bat.
+• Height: 2’ 7".
+• Weight: 17 lbs.
+
+Figure 41: Zubat (Pokémon number 41).
+
+41
+
+42
+
+42
+
+#42 : GOLBAT
+
+#42 : Golbat
+Once it strikes, it will not stop draining energy from
+the victim even if it gets too heavy to fly.
+• Pokémon: Bat.
+• Height: 5’ 3".
+• Weight: 121 lbs.
+
+Figure 42: Golbat (Pokémon number 42).
+
+42
+
+43
+
+43
+
+#43 : ODDISH
+
+#43 : Oddish
+During the day, it keeps its faced buried in the ground.
+At night, it wanders around sowing its seeds.
+• Pokémon: Weed.
+• Height: 1’ 8".
+• Weight: 12 lbs.
+
+Figure 43: Oddish (Pokémon number 43).
+
+43
+
+44
+
+44
+
+#44 : GLOOM
+
+#44 : Gloom
+The fluid that oozes from its mouth isn’t drool. It is
+a nectar that is used to attract prey.
+• Pokémon: Weed.
+• Height: 2’ 7".
+• Weight: 19 lbs.
+
+Figure 44: Gloom (Pokémon number 44).
+
+44
+
+45
+
+45
+
+#45 : VILEPLUME
+
+#45 : Vileplume
+The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.
+• Pokémon: Flower.
+• Height: 3’ 11".
+• Weight: 41 lbs.
+
+Figure 45: Vileplume (Pokémon number 45).
+
+45
+
+46
+
+46
+
+#46 : PARAS
+
+#46 : Paras
+Burrows to suck tree roots. The mushrooms on its
+back grow by drawing nutrients from the bug host.
+• Pokémon: Mushroom.
+• Height: 1’ 0".
+• Weight: 12 lbs.
+
+Figure 46: Paras (Pokémon number 46).
+
+46
+
+47
+
+47
+
+#47 : PARASECT
+
+#47 : Parasect
+A host-parasite pair in which the parasite mushroom
+has taken over the host bug. Prefers damp places.
+• Pokémon: Mushroom.
+• Height: 3’ 3".
+• Weight: 65 lbs.
+
+Figure 47: Parasect (Pokémon number 47).
+
+47
+
+48
+
+48
+
+#48 : VENONAT
+
+#48 : Venonat
+Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.
+• Pokémon: Insect.
+• Height: 3’ 3".
+• Weight: 66 lbs.
+
+Figure 48: Venonat (Pokémon number 48).
+
+48
+
+49
+
+49
+
+#49 : VENOMOTH
+
+#49 : Venomoth
+The dust-like scales covering its wings are color coded
+to indicate the kind of poison it has.
+• Pokémon: Poison.
+• Height: 4’ 11".
+• Weight: 28 lbs.
+
+Figure 49: Venomoth (Pokémon number 49).
+
+49
+
+50
+
+50
+
+#50 : DIGLETT
+
+#50 : Diglett
+Lives about one yard underground where it feeds on
+plant roots. It sometimes appears above ground.
+• Pokémon: Mole.
+• Height: 0’ 8".
+• Weight: 2 lbs.
+
+Figure 50: Diglett (Pokémon number 50).
+
+50
+
+51
+
+51
+
+#51 : DUGTRIO
+
+#51 : Dugtrio
+A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.
+• Pokémon: Mole.
+• Height: 2’ 4".
+• Weight: 73 lbs.
+
+Figure 51: Dugtrio (Pokémon number 51).
+
+51
+
+52
+
+52
+
+#52 : MEOWTH
+
+#52 : Meowth
+Adores circular objects. Wanders the streets on a
+nightly basis to look for dropped loose change.
+• Pokémon: Scratch.
+• Height: 1’ 4".
+• Weight: 9 lbs.
+
+Figure 52: Meowth (Pokémon number 52).
+
+52
+
+53
+
+53
+
+#53 : PERSIAN
+
+#53 : Persian
+Although its fur has many admirers, it is tough to
+raise as a pet because of its fickle meanness.
+• Pokémon: Classy.
+• Height: 3’ 3".
+• Weight: 71 lbs.
+
+Figure 53: Persian (Pokémon number 53).
+
+53
+
+54
+
+54
+
+#54 : PSYDUCK
+
+#54 : Psyduck
+While lulling its enemies with its vacant look, this
+wily Pokémon use psychokinetic powers.
+• Pokémon: Duck.
+• Height: 2’ 7".
+• Weight: 43 lbs.
+
+Figure 54: Psyduck (Pokémon number 54).
+
+54
+
+55
+
+55
+
+#55 : GOLDUCK
+
+#55 : Golduck
+Often seen swimming elegantly by lake shores. It is
+often mistaken for the Japanese monster, Kappa.
+• Pokémon: Duck.
+• Height: 5’ 7".
+• Weight: 169 lbs.
+
+Figure 55: Golduck (Pokémon number 55).
+
+55
+
+56
+
+56
+
+#56 : MANKEY
+
+#56 : Mankey
+Extremely quick to anger. It could docile one moment then thrashing away the next instant.
+• Pokémon: Pig.
+• Height: 1’ 8".
+• Weight: 62 lbs.
+
+Figure 56: Mankey (Pokémon number 56).
+
+56
+
+57
+
+57
+
+#57 : PRIMEAPE
+
+#57 : Primeape
+Always furious and tenacious to boot. It will not
+abandon chasing its quarry until it is caught.
+• Pokémon: Pig.
+• Height: 3’ 3".
+• Weight: 71 lbs.
+
+Figure 57: Primeape (Pokémon number 57).
+
+57
+
+58
+
+58
+
+#58 : GROWLITHE
+
+#58 : Growlithe
+Very protective of its territory. It will bark and bite
+to repel intruders from its space.
+• Pokémon: Puppy.
+• Height: 2’ 4".
+• Weight: 42 lbs.
+
+Figure 58: Growlithe (Pokémon number 58).
+
+58
+
+59
+
+59
+
+#59 : ARCANINE
+
+#59 : Arcanine
+A Pokémon that has been admired since the past for
+its beauty. It runs agilely as if on wings.
+• Pokémon: Legendary.
+• Height: 6’ 3".
+• Weight: 342 lbs.
+
+Figure 59: Arcanine (Pokémon number 59).
+
+59
+
+60
+
+60
+
+#60 : POLIWAG
+
+#60 : Poliwag
+Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.
+• Pokémon: Tadpole.
+• Height: 2’ 0".
+• Weight: 27 lbs.
+
+Figure 60: Poliwag (Pokémon number 60).
+
+60
+
+61
+
+61
+
+#61 : POLIWHIRL
+
+#61 : Poliwhirl
+Capable of living in or out of water. When out of
+water, it sweats to keep its body slimy.
+• Pokémon: Tadpole.
+• Height: 3’ 3".
+• Weight: 44 lbs.
+
+Figure 61: Poliwhirl (Pokémon number 61).
+
+61
+
+62
+
+62
+
+#62 : POLIWRATH
+
+#62 : Poliwrath
+An adept swimmer at both the front crawl and breast
+stroke. Easily overtakes even the best human swimmers.
+• Pokémon: Tadpole.
+• Height: 4’ 3".
+• Weight: 119 lbs.
+
+Figure 62: Poliwrath (Pokémon number 62).
+
+62
+
+63
+
+63
+
+#63 : ABRA
+
+#63 : Abra
+Using its ability to read minds, it will identify impending danger and teleport to safety.
+• Pokémon: Psi.
+• Height: 2’ 11".
+• Weight: 43 lbs.
+
+Figure 63: Abra (Pokémon number 63).
+
+63
+
+64
+
+64
+
+#64 : KADABRA
+
+#64 : Kadabra
+It emits special alpha waves from its body that induce headaches just by being close by.
+• Pokémon: Psi.
+• Height: 4’ 3".
+• Weight: 125 lbs.
+
+Figure 64: Kadabra (Pokémon number 64).
+
+64
+
+65
+
+65
+
+#65 : ALAKAZAM
+
+#65 : Alakazam
+Its brain can outperform a super computer. Its intelligence quotient is said to be 5000.
+• Pokémon: Psi.
+• Height: 4’ 11".
+• Weight: 106 lbs.
+
+Figure 65: Alakazam (Pokémon number 65).
+
+65
+
+66
+
+66
+
+#66 : MACHOP
+
+#66 : Machop
+Loves to build its muscles. It trains in all styles of
+martial arts to become even stronger.
+• Pokémon: Superpower.
+• Height: 2’ 7".
+• Weight: 43 lbs.
+
+Figure 66: Machop (Pokémon number 66).
+
+66
+
+67
+
+67
+
+#67 : MACHOKE
+
+#67 : Machoke
+Its muscular body is so powerful, it must wear a
+power save belt to be able to regulate its motions.
+• Pokémon: Superpower.
+• Height: 4’ 11".
+• Weight: 155 lbs.
+
+Figure 67: Machoke (Pokémon number 67).
+
+67
+
+68
+
+68
+
+#68 : MACHAMP
+
+#68 : Machamp
+Using its heavy muscles, it throws powerful punches
+that can send the victim clear over the horizon.
+• Pokémon: Superpower.
+• Height: 5’ 3".
+• Weight: 287 lbs.
+
+Figure 68: Machamp (Pokémon number 68).
+
+68
+
+69
+
+69
+
+#69 : BELLSPROUT
+
+#69 : Bellsprout
+A carnivorous Pokémon that traps and eats bugs. It
+uses its root feet to soak up needed moisture.
+• Pokémon: Flower.
+• Height: 2’ 4".
+• Weight: 9 lbs.
+
+Figure 69: Bellsprout (Pokémon number 69).
+
+69
+
+70
+
+70
+
+#70 : WEEPINBELL
+
+#70 : Weepinbell
+It spits out poison powder to immobilize the enemy
+and then finishes it with a spray of acid.
+• Pokémon: Flycatcher.
+• Height: 3’ 3".
+• Weight: 14 lbs.
+
+Figure 70: Weepinbell (Pokémon number 70).
+
+70
+
+71
+
+71
+
+#71 : VICTREEBEL
+
+#71 : Victreebel
+Said to live in huge colonies deep in jungles, although
+no one has ever returned from there.
+• Pokémon: Flycatcher.
+• Height: 5’ 7".
+• Weight: 34 lbs.
+
+Figure 71: Victreebel (Pokémon number 71).
+
+71
+
+72
+
+72
+
+#72 : TENTACOOL
+
+#72 : Tentacool
+Drifts in shallow seas. Anglers who hook them by
+accident are often punished by its stinging acid.
+• Pokémon: Jellyfish.
+• Height: 2’ 11".
+• Weight: 100 lbs.
+
+Figure 72: Tentacool (Pokémon number 72).
+
+72
+
+73
+
+73
+
+#73 : TENTACRUEL
+
+#73 : Tentacruel
+The tentacles are normally kept short. On hunts,
+they are extended to ensnare and immobilze prey.
+• Pokémon: Jellyfish.
+• Height: 5’ 3".
+• Weight: 121 lbs.
+
+Figure 73: Tentacruel (Pokémon number 73).
+
+73
+
+74
+
+74
+
+#74 : GEODUDE
+
+#74 : Geodude
+Found in fields and mountains. Mistaking them for
+boulders, people often step or trip on them.
+• Pokémon: Rock.
+• Height: 1’ 4".
+• Weight: 44 lbs.
+
+Figure 74: Geodude (Pokémon number 74).
+
+74
+
+75
+
+75
+
+#75 : GRAVELER
+
+#75 : Graveler
+Rolls down slopes to move. It rolls over any obstacles without slowing or changing its direction.
+• Pokémon: Rock.
+• Height: 3’ 3".
+• Weight: 232 lbs.
+
+Figure 75: Graveler (Pokémon number 75).
+
+75
+
+76
+
+76
+
+#76 : GOLEM
+
+#76 : Golem
+Its boulder-like body is extremely hard. It can easily
+withstand dynamite blasts without damage.
+• Pokémon: Megaton.
+• Height: 4’ 7".
+• Weight: 662 lbs.
+
+Figure 76: Golem (Pokémon number 76).
+
+76
+
+77
+
+77
+
+#77 : PONYTA
+
+#77 : Ponyta
+Its hooves are 10 times harder than diamonds. It can
+trample anything completely flat in little time.
+• Pokémon: Fire.
+• Height: 3’ 3".
+• Weight: 66 lbs.
+
+Figure 77: Ponyta (Pokémon number 77).
+
+77
+
+78
+
+78
+
+#78 : RAPIDASH
+
+#78 : Rapidash
+Very competitive, this Pokémon will chase anything
+that moves fast in the hopes of racing it.
+• Pokémon: Fire.
+• Height: 5’ 7".
+• Weight: 209 lbs.
+
+Figure 78: Rapidash (Pokémon number 78).
+
+78
+
+79
+
+79
+
+#79 : SLOWPOKE
+
+#79 : Slowpoke
+Incredibly slow and dopey. It takes 5 seconds for it
+to feel pain when under attack.
+• Pokémon: Dopey.
+• Height: 3’ 11".
+• Weight: 79 lbs.
+
+Figure 79: Slowpoke (Pokémon number 79).
+
+79
+
+80
+
+80
+
+#80 : SLOWBRO
+
+#80 : Slowbro
+The Shellder that is latched onto Slowpoke’s tail is
+said to feed on the host’s left over scraps.
+• Pokémon: Hermit.
+• Height: 5’ 3".
+• Weight: 173 lbs.
+
+Figure 80: Slowbro (Pokémon number 80).
+
+80
+
+81
+
+81
+
+#81 : MAGNEMITE
+
+#81 : Magnemite
+Uses anti-gravity to stay suspended. Appears without warning and uses Thunder Wave and similar moves.
+• Pokémon: Magnet.
+• Height: 1’ 0".
+• Weight: 13 lbs.
+
+Figure 81: Magnemite (Pokémon number 81).
+
+81
+
+82
+
+82
+
+#82 : MAGNETON
+
+#82 : Magneton
+Formed by several Magnemites linked together. They
+frequently appear when sunspots flare up.
+• Pokémon: Magnet.
+• Height: 3’ 3".
+• Weight: 132 lbs.
+
+Figure 82: Magneton (Pokémon number 82).
+
+82
+
+83
+
+83
+
+#83 : FARFETCH’D
+
+#83 : Farfetch’d
+The sprig of green onions it holds is its weapon. It is
+used much like a metal sword.
+• Pokémon: Wild.
+• Height: 2’ 7".
+• Weight: 33 lbs.
+
+Figure 83: Farfetch’d (Pokémon number 83).
+
+83
+
+84
+
+84
+
+#84 : DODUO
+
+#84 : Doduo
+A bird that makes up for its poor flying with its fast
+foot speed. Leaves giant footprints.
+• Pokémon: Twin.
+• Height: 4’ 7".
+• Weight: 86 lbs.
+
+Figure 84: Doduo (Pokémon number 84).
+
+84
+
+85
+
+85
+
+#85 : DODRIO
+
+#85 : Dodrio
+Uses its three brains to execute complex plans. While
+two heads sleep, one head stays awake.
+• Pokémon: Triple.
+• Height: 5’ 11".
+• Weight: 188 lbs.
+
+Figure 85: Dodrio (Pokémon number 85).
+
+85
+
+86
+
+86
+
+#86 : SEEL
+
+#86 : Seel
+The horn protruding on its head is very hard. It is
+used for bashing through thick ice.
+• Pokémon: Sea.
+• Height: 3’ 7".
+• Weight: 198 lbs.
+
+Figure 86: Seel (Pokémon number 86).
+
+86
+
+87
+
+87
+
+#87 : DEWGONG
+
+#87 : Dewgong
+Stores thermal energy in its body. Swims at a steady
+8 knots, even in intensely cold waters.
+• Pokémon: Sea.
+• Height: 5’ 7".
+• Weight: 265 lbs.
+
+Figure 87: Dewgong (Pokémon number 87).
+
+87
+
+88
+
+88
+
+#88 : GRIMER
+
+#88 : Grimer
+Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.
+• Pokémon: Sludge.
+• Height: 2’ 11".
+• Weight: 66 lbs.
+
+Figure 88: Grimer (Pokémon number 88).
+
+88
+
+89
+
+89
+
+#89 : MUK
+
+#89 : Muk
+Thickly covered with a filthy, vile sludge. It is so
+toxic, even its footprints contain poison.
+• Pokémon: Sludge.
+• Height: 3’ 11".
+• Weight: 66 lbs.
+
+Figure 89: Muk (Pokémon number 89).
+
+89
+
+90
+
+90
+
+#90 : SHELLDER
+
+#90 : Shellder
+Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.
+• Pokémon: Bivalve.
+• Height: 1’ 00".
+• Weight: 9 lbs.
+
+Figure 90: Shellder (Pokémon number 90).
+
+90
+
+91
+
+91
+
+#91 : CLOYSTER
+
+#91 : Cloyster
+When attacked, it launches its horns in quick volleys.
+Its innards have never been seen.
+• Pokémon: Bivalve.
+• Height: 4’ 11".
+• Weight: 292 lbs.
+
+Figure 91: Cloyster (Pokémon number 91).
+
+91
+
+92
+
+92
+
+#92 : GASTLY
+
+#92 : Gastly
+Almost invisible, this gaseous Pokémon cloaks the
+target and puts it to sleep without notice.
+• Pokémon: Gas.
+• Height: 4’ 3".
+• Weight: 2 lbs.
+
+Figure 92: Gastly (Pokémon number 92).
+
+92
+
+93
+
+93
+
+#93 : HAUNTER
+
+#93 : Haunter
+Because of its ability to slip through block walls, it is
+said to be from another dimension.
+• Pokémon: Gas.
+• Height: 5’ 3".
+• Weight: 2 lbs.
+
+Figure 93: Haunter (Pokémon number 93).
+
+93
+
+94
+
+94
+
+#94 : GENGAR
+
+#94 : Gengar
+Under a full moon, this Pokémon likes to mimic the
+shadows of people and laugh at their fright.
+• Pokémon: Shadow.
+• Height: 4’ 11".
+• Weight: 89 lbs.
+
+Figure 94: Gengar (Pokémon number 94).
+
+94
+
+95
+
+95
+
+#95 : ONIX
+
+#95 : Onix
+As it grows, the stone portions of its body harden to
+become similar to a diamond, but colored black.
+• Pokémon: Rock.
+• Height: 28’ 10".
+• Weight: 463 lbs.
+
+Figure 95: Onix (Pokémon number 95).
+
+95
+
+96
+
+96
+
+#96 : DROWZEE
+
+#96 : Drowzee
+Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.
+• Pokémon: Hypnosis.
+• Height: 3’ 3".
+• Weight: 71 lbs.
+
+Figure 96: Drowzee (Pokémon number 96).
+
+96
+
+97
+
+97
+
+#97 : HYPNO
+
+#97 : Hypno
+When it locks eyes with an enemy, it will use a mix
+of Psi moves such as Hypnosis and Confusion.
+• Pokémon: Hypnosis.
+• Height: 5’ 3".
+• Weight: 167 lbs.
+
+Figure 97: Hypno (Pokémon number 97).
+
+97
+
+98
+
+98
+
+#98 : KRABBY
+
+#98 : Krabby
+Its pincers are not only powerful weapons, they are
+used for balance when walking sideways.
+• Pokémon: River.
+• Height: 1’ 4".
+• Weight: 14 lbs.
+
+Figure 98: Krabby (Pokémon number 98).
+
+98
+
+99
+
+99
+
+#99 : KINGLER
+
+#99 : Kingler
+The large pincer has 10000 HP of crushing power.
+However, its huge size makes it unwieldy to use.
+• Pokémon: Pincer.
+• Height: 4’ 3".
+• Weight: 132 lbs.
+
+Figure 99: Kingler (Pokémon number 99).
+
+99
+
+100 #100 : VOLTORB
+
+100
+
+#100 : Voltorb
+Usually found in power plants. Easily mistaken for
+a Pokéball, they have zapped many people.
+• Pokémon: Ball.
+• Height: 1’ 8".
+• Weight: 23 lbs.
+
+Figure 100: Voltorb (Pokémon number 100).
+
+100
+
+101 #101 : ELECTRODE
+
+101
+
+#101 : Electrode
+It stores electric energy under very high pressure. It
+often explodes under little or no provocation.
+• Pokémon: Ball.
+• Height: 3’ 11".
+• Weight: 147 lbs.
+
+Figure 101: Electrode (Pokémon number 101).
+
+101
+
+102 #102 : EXEGGCUTE
+
+102
+
+#102 : Exeggcute
+Often mistaken for eggs. When disturbed, they quickly
+gather and attack in swarms.
+• Pokémon: Egg.
+• Height: 1’ 4".
+• Weight: 6 lbs.
+
+Figure 102: Exeggcute (Pokémon number 102).
+
+102
+
+103 #103 : EXEGGUTOR
+
+103
+
+#103 : Exeggutor
+Legend has it that on rare occasions, one of its heads
+will drop off and continue on as an Exeggcute.
+• Pokémon: Coconut.
+• Height: 6’ 7".
+• Weight: 265 lbs.
+
+Figure 103: Exeggutor (Pokémon number 103).
+
+103
+
+104 #104 : CUBONE
+
+104
+
+#104 : Cubone
+Because it never removes its skull helmet, no one has
+ever seen this Pokémon’s real face.
+• Pokémon: Lonely.
+• Height: 1’ 4".
+• Weight: 14 lbs.
+
+Figure 104: Cubone (Pokémon number 104).
+
+104
+
+105 #105 : MAROWAK
+
+105
+
+#105 : Marowak
+The bone it holds is its key weapon. It throws the
+bone skillfully like a boomerang to KO targets.
+• Pokémon: Bonekeeper.
+• Height: 3’ 3".
+• Weight: 99 lbs.
+
+Figure 105: Marowak (Pokémon number 105).
+
+105
+
+106 #106 : HITMONLEE
+
+106
+
+#106 : Hitmonlee
+When in a hurry, its legs lengthen progressively. It
+runs smoothly with extra long, loping strides.
+• Pokémon: Kicking.
+• Height: 4’ 11".
+• Weight: 110 lbs.
+
+Figure 106: Hitmonlee (Pokémon number 106).
+
+106
+
+107 #107 : HITMONCHAN
+
+107
+
+#107 : Hitmonchan
+While apparently doing nothing, it fires punches in
+lightning fast volleys that are impossible to see.
+• Pokémon: Punching.
+• Height: 4’ 7".
+• Weight: 111 lbs.
+
+Figure 107: Hitmonchan (Pokémon number 107).
+
+107
+
+108 #108 : LICKITUNG
+
+108
+
+#108 : Lickitung
+Its tongue can be extended like a chameleon’s. It
+leaves a tingling sensation when it licks enemies.
+• Pokémon: Licking.
+• Height: 3’ 11".
+• Weight: 144 lbs.
+
+Figure 108: Lickitung (Pokémon number 108).
+
+108
+
+109 #109 : KOFFING
+
+109
+
+#109 : Koffing
+Because it stores several kinds of toxic gases in its
+body, it is prone to exploding without warning.
+• Pokémon: Poison.
+• Height: 2’ 0".
+• Weight: 2 lbs.
+
+Figure 109: Koffing (Pokémon number 109).
+
+109
+
+110 #110 : WEEZING
+
+110
+
+#110 : Weezing
+Where 2 kinds of poison gases meet, 2 Koffings can
+fuse into a Weezing over many years.
+• Pokémon: Poison.
+• Height: 3’ 11".
+• Weight: 21 lbs.
+
+Figure 110: Weezing (Pokémon number 110).
+
+110
+
+111 #111 : RHYHORN
+
+111
+
+#111 : Rhyhorn
+Its massive bones are 1000 times harder than human
+bones. It can easily knock a trailer flying.
+• Pokémon: Spikes.
+• Height: 3’ 3".
+• Weight: 254 lbs.
+
+Figure 111: Rhyhorn (Pokémon number 111).
+
+111
+
+112 #112 : RHYDON
+
+112
+
+#112 : Rhydon
+Protected by an armor-like hide, it is capable of living in molten lava of 3600 degrees.
+• Pokémon: Drill.
+• Height: 6’ 3".
+• Weight: 265 lbs.
+
+Figure 112: Rhydon (Pokémon number 112).
+
+112
+
+113 #113 : CHANSEY
+
+113
+
+#113 : Chansey
+A rare and elusive Pokémon that is said to bring happiness to those who manage to get it.
+• Pokémon: Egg.
+• Height: 3’ 7".
+• Weight: 76 lbs.
+
+Figure 113: Chansey (Pokémon number 113).
+
+113
+
+114 #114 : TANGELA
+
+114
+
+#114 : Tangela
+The whole body is swathed with wide vines that are
+similar to seaweed. Its vines shake as it walks.
+• Pokémon: Vine.
+• Height: 3’ 3".
+• Weight: 77 lbs.
+
+Figure 114: Tangela (Pokémon number 114).
+
+114
+
+115 #115 : KANGASKHAN
+
+115
+
+#115 : Kangaskhan
+The infant rarely ventures out of its mother’s protective pouch until it is 3 years old.
+• Pokémon: Parent.
+• Height: 7’ 3".
+• Weight: 176 lbs.
+
+Figure 115: Kangaskhan (Pokémon number 115).
+
+115
+
+116 #116 : HORSEA
+
+116
+
+#116 : Horsea
+Known to shoot down flying bugs with precision
+blasts of ink from the surface of the water.
+• Pokémon: Dragon.
+• Height: 1’ 4".
+• Weight: 18 lbs.
+
+Figure 116: Horsea (Pokémon number 116).
+
+116
+
+117 #117 : SEADRA
+
+117
+
+#117 : Seadra
+Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail.
+• Pokémon: Dragon.
+• Height: 3’ 11".
+• Weight: 55 lbs.
+
+Figure 117: Seadra (Pokémon number 117).
+
+117
+
+118 #118 : GOLDEEN
+
+118
+
+#118 : Goldeen
+Its tailfin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.
+• Pokémon: Goldfish.
+• Height: 2’ 0".
+• Weight: 33 lbs.
+
+Figure 118: Goldeen (Pokémon number 118).
+
+118
+
+119 #119 : SEAKING
+
+119
+
+#119 : Seaking
+In the autumn spawning season, they can be seen
+swimming powerfully up rivers and creeks.
+• Pokémon: Goldfish.
+• Height: 4’ 3".
+• Weight: 86 lbs.
+
+Figure 119: Seaking (Pokémon number 119).
+
+119
+
+120 #120 : STARYU
+
+120
+
+#120 : Staryu
+An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.
+• Pokémon: Starshape.
+• Height: 2’ 7".
+• Weight: 76 lbs.
+
+Figure 120: Staryu (Pokémon number 120).
+
+120
+
+121 #121 : STARMIE
+
+121
+
+#121 : Starmie
+Its central core glows with the seven colors of the
+rainbow. Some people value the core as a gem.
+• Pokémon: Mysterious.
+• Height: 3’ 7".
+• Weight: 176 lbs.
+
+Figure 121: Starmie (Pokémon number 121).
+
+121
+
+122 #122 : MR.MIME
+
+122
+
+#122 : Mr.Mime
+If interrupted while it is miming, it will slap around
+the offender with its broad hands.
+• Pokémon: Barrier.
+• Height: 4’ 3".
+• Weight: 120 lbs.
+
+Figure 122: Mr.Mime (Pokémon number 122).
+
+122
+
+123 #123 : SCYTHER
+
+123
+
+#123 : Scyther
+With ninja-like agility and speed, it can create the
+illusion that there is more than one.
+• Pokémon: Mantis.
+• Height: 4’ 11".
+• Weight: 123 lbs.
+
+Figure 123: Scyther (Pokémon number 123).
+
+123
+
+124 #124 : JYNX
+
+124
+
+#124 : Jynx
+It seductively wiggles its hips as it walks. It can
+cause people to dance in unison with it.
+• Pokémon: Human.
+• Height: 4’ 7".
+• Weight: 90 lbs.
+
+Figure 124: Jynx (Pokémon number 124).
+
+124
+
+125 #125 : ELECTABUZZ
+
+125
+
+#125 : Electabuzz
+Normally found near power plants, they can wander
+away and cause major blackouts in cities.
+• Pokémon: Electric.
+• Height: 3’ 7".
+• Weight: 66 lbs.
+
+Figure 125: Electabuzz (Pokémon number 125).
+
+125
+
+126 #126 : MAGMAR
+
+126
+
+#126 : Magmar
+Its body always burns with an orange glow that enables it to hide perfectly among flames.
+• Pokémon: Spitfire.
+• Height: 4’ 3".
+• Weight: 98 lbs.
+
+Figure 126: Magmar (Pokémon number 126).
+
+126
+
+127 #127 : PINSIR
+
+127
+
+#127 : Pinsir
+If it fails to crush the victim in its pincers, it will
+swing it around and toss it hard.
+• Pokémon: Stag.
+• Height: 4’ 11".
+• Weight: 121 lbs.
+
+Figure 127: Pinsir (Pokémon number 127).
+
+127
+
+128 #128 : TAUROS
+
+128
+
+#128 : Tauros
+When it targets an enemy, it charges furiously while
+whipping its body with its long tails.
+• Pokémon: Wild.
+• Height: 4’ 7".
+• Weight: 195 lbs.
+
+Figure 128: Tauros (Pokémon number 128).
+
+128
+
+129 #129 : MAGIKARP
+
+129
+
+#129 : Magikarp
+In the distant past, it was somewhat stronger than
+the horribly weak descendants that exist today.
+• Pokémon: Fish.
+• Height: 2’ 11".
+• Weight: 22 lbs.
+
+Figure 129: Magikarp (Pokémon number 129).
+
+129
+
+130 #130 : GYARADOS
+
+130
+
+#130 : Gyarados
+Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.
+• Pokémon: Atrocious.
+• Height: 21’ 4".
+• Weight: 518 lbs.
+
+Figure 130: Gyarados (Pokémon number 130).
+
+130
+
+131 #131 : LAPRAS
+
+131
+
+#131 : Lapras
+A Pokémon that has been overhunted almost to extinction. It can ferry people across the water.
+• Pokémon: Transport.
+• Height: 8’ 2".
+• Weight: 485 lbs.
+
+Figure 131: Lapras (Pokémon number 131).
+
+131
+
+132 #132 : DITTO
+
+132
+
+#132 : Ditto
+Capable of copying an enemy’s genetic code to instantly transform itself into a duplicate of the enemy.
+• Pokémon: Transform.
+• Height: 1’ 0".
+• Weight: 9 lbs.
+
+Figure 132: Ditto (Pokémon number 132).
+
+132
+
+133 #133 : EEVEE
+
+133
+
+#133 : Eevee
+Its genetic code is irregular. It may mutate if it is
+exposed to radiation from element Stones.
+• Pokémon: Evolution.
+• Height: 1’ 0".
+• Weight: 14 lbs.
+
+Figure 133: Eevee (Pokémon number 133).
+
+133
+
+134 #134 : VAPOREON
+
+134
+
+#134 : Vaporeon
+Lives close to water. Its long tail is ridged with a fin
+which is often mistaken for a mermaid’s.
+• Pokémon: Bubble.
+• Height: 3’ 3".
+• Weight: 64 lbs.
+
+Figure 134: Vaporeon (Pokémon number 134).
+
+134
+
+135 #135 : JOLTEON
+
+135
+
+#135 : Jolteon
+It accumulates negative ions in the atmosphere to
+blast out 10000-volt lightning bolts.
+• Pokémon: Lightning.
+• Height: 2’ 7".
+• Weight: 54 lbs.
+
+Figure 135: Jolteon (Pokémon number 135).
+
+135
+
+136 #136 : FLAREON
+
+136
+
+#136 : Flareon
+When storing thermal energy in its body, its temperature could soar to over 1600 degrees.
+• Pokémon: Flame.
+• Height: 2’ 11".
+• Weight: 55 lbs.
+
+Figure 136: Flareon (Pokémon number 136).
+
+136
+
+137 #137 : PORYGON
+
+137
+
+#137 : Porygon
+A Pokémon that consists entirely of programming
+code. Capable of moving freely in cyberspace.
+• Pokémon: Virtual.
+• Height: 2’ 7".
+• Weight: 80 lbs.
+
+Figure 137: Porygon (Pokémon number 137).
+
+137
+
+138 #138 : OMANYTE
+
+138
+
+#138 : Omanyte
+Although long extinct, in rare cases, it can be genetically resurrected from fossils.
+• Pokémon: Spiral.
+• Height: 1’ 4".
+• Weight: 17 lbs.
+
+Figure 138: Omanyte (Pokémon number 138).
+
+138
+
+139 #139 : OMASTAR
+
+139
+
+#139 : Omastar
+A prehistoric Pokémon that died out when its heavy
+shell made it impossible to catch prey.
+• Pokémon: Spiral.
+• Height: 3’ 3".
+• Weight: 77 lbs.
+
+Figure 139: Omastar (Pokémon number 139).
+
+139
+
+140 #140 : KABUTO
+
+140
+
+#140 : Kabuto
+A Pokémon that was resurrected from a fossil found
+in what was once the ocean floor eons ago.
+• Pokémon: Shellfish.
+• Height: 1’ 8".
+• Weight: 25 lbs.
+
+Figure 140: Kabuto (Pokémon number 140).
+
+140
+
+141 #141 : KABUTOPS
+
+141
+
+#141 : Kabutops
+Its sleek shape is perfect for swimming. It slashes
+prey with its claws and drains the body fluids.
+• Pokémon: Shellfish.
+• Height: 4’ 3".
+• Weight: 89 lbs.
+
+Figure 141: Kabutops (Pokémon number 141).
+
+141
+
+142 #142 : AERODACTYL
+
+142
+
+#142 : Aerodactyl
+A ferocious, prehistoric Pokémon that goes for the
+enemy’s throat with its serrated saw-like fangs.
+• Pokémon: Fossil.
+• Height: 5’ 11".
+• Weight: 130 lbs.
+
+Figure 142: Aerodactyl (Pokémon number 142).
+
+142
+
+143 #143 : SNORLAX
+
+143
+
+#143 : Snorlax
+Very lazy. Just eats and sleeps. As its rotund bulk
+builds, it becomes steadily more slothful.
+• Pokémon: Sleeping.
+• Height: 6’ 11".
+• Weight: 1014 lbs.
+
+Figure 143: Snorlax (Pokémon number 143).
+
+143
+
+144 #144 : ARTICUNO
+
+144
+
+#144 : Articuno
+A legendary bird Pokémon that is said to appear to
+doomed people who are lost in icy mountains.
+• Pokémon: Freeze.
+• Height: 5’ 7".
+• Weight: 122 lbs.
+
+Figure 144: Articuno (Pokémon number 144).
+
+144
+
+145 #145 : ZAPDOS
+
+145
+
+#145 : Zapdos
+A legendary bird Pokémon that is said to appear from
+clouds while dropping enormous lightning bolts.
+• Pokémon: Electric.
+• Height: 5’ 3".
+• Weight: 116 lbs.
+
+Figure 145: Zapdos (Pokémon number 145).
+
+145
+
+146 #146 : MOLTRES
+
+146
+
+#146 : Moltres
+Known as the legendary chicken of fire. Every flap
+of its wings creates a dazzling flash of flames.
+• Pokémon: Flame.
+• Height: 6’ 7".
+• Weight: 132 lbs.
+
+Figure 146: Moltres (Pokémon number 146).
+
+146
+
+147 #147 : DRATINI
+
+147
+
+#147 : Dratini
+Long considered a mythical Pokémon until recently
+when a small colony was found living underwater.
+• Pokémon: Dragon.
+• Height: 5’ 11".
+• Weight: 7 lbs.
+
+Figure 147: Dratini (Pokémon number 147).
+
+147
+
+148 #148 : DRAGONAIR
+
+148
+
+#148 : Dragonair
+A mystical Pokémon that exudes a gentle aura. Has
+the ability to change climate conditions.
+• Pokémon: Dragon.
+• Height: 13’ 1".
+• Weight: 36 lbs.
+
+Figure 148: Dragonair (Pokémon number 148).
+
+148
+
+149 #149 : DRAGONITE
+
+149
+
+#149 : Dragonite
+An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans.
+• Pokémon: Dragon.
+• Height: 7’ 3".
+• Weight: 463 lbs.
+
+Figure 149: Dragonite (Pokémon number 149).
+
+149
+
+150 #150 : MEWTWO
+
+150
+
+#150 : Mewtwo
+It was created by a scientist after years of horrific
+gene splicing and DNA engineering experiments.
+• Pokémon: Genetic.
+• Height: 6’ 7".
+• Weight: 269 lbs.
+
+Figure 150: Mewtwo (Pokémon number 150).
+
+150
+
+151 #151 : MEW
+
+151
+
+#151 : Mew
+So rare that it is still said to be a mirage by many
+experts. Only a few people have seen it worldwide.
+• Pokémon: New.
+• Height: 1’ 4".
+• Weight: 9 lbs.
+
+Figure 151: Mew (Pokémon number 151).
+
+151
+
+
