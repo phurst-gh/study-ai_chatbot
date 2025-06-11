@@ -1,9 +1,9 @@
-const dotenv = require('dotenv');
-const express = require('express');
-const cors = require('cors');
-const { GoogleGenerativeAI } = require("@google/generative-ai");
-const { summariseOldMessages } = require('./summarise');
-const fs = require('fs');
+import dotenv from 'dotenv';
+import express from 'express';
+import cors from 'cors';
+import { GoogleGenerativeAI } from '@google/generative-ai';
+import { summariseOldMessages } from './summarise.js';
+import fs from 'fs';
 
 dotenv.config();
 const app = express();
