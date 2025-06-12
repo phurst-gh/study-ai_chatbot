@@ -23,8 +23,22 @@ function App() {
         context: selectedContext
       });
       setMessages([...newMessages, { sender: "bot", text: response.data.reply }]);
+      setSelectedContext("");
     } catch (error) {
       console.error("Error:", error);
+    }
+  };
+
+  const uploadContext = async (contextName) => {
+    try {
+      await axios.post('http://localhost:3000/upload-context', { context: contextName });
+      
+      setMessages((prev) => [
+        ...prev,
+        { sender: 'bot', text: `Great! I've loaded the context for ${contextName}. Let's discuss.` },
+      ]);
+    } catch (err) {
+      console.error('Error uploading context:', err);
     }
   };
 
@@ -60,9 +74,8 @@ function App() {
         />
 
         <div className="context-buttons-container">
-          <button onClick={() => setSelectedContext("the-book-of-five-rings")}>The Book of 5 Rings</button>
-          <button onClick={() => setSelectedContext("pokemon")}>Pokedex - Original 151</button>
-          <button onClick={() => setSelectedContext("40k-core-rules")}>40k Core Rules</button>
+          <button onClick={() => uploadContext("the-book-of-five-rings")}>The Book of 5 Rings</button>
+          <button onClick={() => uploadContext("pokemon")}>Pokedex - Original 151</button>
         </div>
       </div>
     </div>
