@@ -23,7 +23,6 @@ function App() {
         context: selectedContext
       });
       setMessages([...newMessages, { sender: "bot", text: response.data.reply }]);
-      setSelectedContext("");
     } catch (error) {
       console.error("Error:", error);
     }
@@ -31,12 +30,14 @@ function App() {
 
   const uploadContext = async (contextName) => {
     try {
-      await axios.post('http://localhost:3000/upload-context', { context: contextName });
-      
-      setMessages((prev) => [
-        ...prev,
-        { sender: 'bot', text: `Great! I've loaded the context for ${contextName}. Let's discuss.` },
-      ]);
+      const response = await axios.post('http://localhost:3000/upload-context', { context: contextName });
+
+      if (response.data?.botResponse) {
+        setMessages((prev) => [
+          ...prev,
+          { sender: 'bot', text: response.data.botResponse },
+        ]);
+      }
     } catch (err) {
       console.error('Error uploading context:', err);
     }

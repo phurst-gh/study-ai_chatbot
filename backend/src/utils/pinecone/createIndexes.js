@@ -1,4 +1,4 @@
-import { Pinecone } from '@pinecone-database/pinecone';
+import { Pinecone } from "@pinecone-database/pinecone";
 
 const pinecone = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
 
@@ -14,19 +14,19 @@ export const createIndexes = async (contextName) => {
     await pinecone.createIndex({
       name: contextName,
       dimension: 768,
-      metric: 'cosine',
+      metric: "cosine",
       spec: {
         serverless: {
-          cloud: 'aws',
-          region: 'us-east-1'
-        }
-      }
+          cloud: "aws",
+          region: "us-east-1",
+        },
+      },
     });
 
     console.log(`✅ Index "${contextName}" created successfully.`);
     return true;
   } catch (error) {
-    console.error('❌ Error in createIndexes:', error);
+    console.error("❌ Error in createIndexes:", error);
     return false;
   }
 };

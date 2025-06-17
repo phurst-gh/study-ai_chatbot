@@ -19,19 +19,17 @@ export const uploadContextHandler = async (req, res) => {
 
     let confirmationMessage = '';
     if (context === 'pokemon') {
-      confirmationMessage = "Great! I've got access to the original 151 Pokemon statistics now, let's discuss.";
+      confirmationMessage = "Great! I've got access to the original 151 Pokémon statistics, let's discuss.";
+    } else if (context === 'the-book-of-five-rings') {
+      confirmationMessage = "Great! I've got access to The Book of Five Rings novel, let's discuss..";
+    } else {
+      confirmationMessage = `✅ Uploaded and indexed context: ${context} !`;
     }
-    if (context === 'the-book-of-five-rings') {
-      confirmationMessage = "I now have The Book of Five Rings for philosophical discussions.";
-    }
-
-    console.log(`✅ Context "${context}" uploaded and indexed!`);
-
-    res.json({
-      botResponse: confirmationMessage
-    });
+    
+    return res.status(200).json({ botResponse: confirmationMessage });
   } catch (error) {
     console.error('Error uploading context:', error);
-    res.status(500).json({ error: 'Failed to upload context' });
-  }
+    return res.status(500).json({
+      botResponse: `❌ Failed to upload context: ${context}`
+    });  }
 };
