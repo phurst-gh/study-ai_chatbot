@@ -1,9 +1,9 @@
 import fs from "fs";
 import path from "path";
-import { Pinecone } from "@pinecone-database/pinecone";
-import { embeddingModel } from "../googleGenerativeAI.js";
 
-const pinecone = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
+import { pinecone } from "./client.js";
+import { embeddingModel } from "../googleGeminiClient.js";
+
 const contextFolderPath = "./src/context";
 
 export async function getEmbedding(text) {
