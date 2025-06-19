@@ -32,6 +32,8 @@ function App() {
     try {
       const response = await axios.post('http://localhost:3000/upload-context', { context: contextName });
 
+      setSelectedContext(contextName);
+
       if (response.data?.botResponse) {
         setMessages((prev) => [
           ...prev,
