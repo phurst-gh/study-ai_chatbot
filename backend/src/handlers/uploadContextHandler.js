@@ -15,7 +15,16 @@ export const uploadContextHandler = async (req, res) => {
         botResponse: `⚠️ Context "${context}" already exists. Skipped uploading.`
       });
     }
-    await uploadChunks(context);
+
+    try {
+      await uploadChunks(context);
+    } catch (error) {
+      await pinecone.deleteIndex(context);
+      console.error('Error uploading context:', error);
+      return res.status(500).json({
+        botResponse: `❌ Failed to upload chunks. Index "${context}" was deleted.`,
+      });
+    }
 
     let confirmationMessage = '';
     if (context === 'pokemon') {
