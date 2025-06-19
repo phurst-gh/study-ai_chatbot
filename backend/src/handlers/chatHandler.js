@@ -1,6 +1,6 @@
 import { summariseOldMessages } from '../utils/summarise.js';
 import { getPineconeContext } from '../utils/getPineconeContext.js';
-import { chatModel } from '../utils/googleGenerativeAI.js';
+import { chatModel } from '../utils/googleGeminiClient.js';
 
 const MAX_MESSAGES = 10;
 // System prompt to guide the ai (into polite conversation) when using muti-turn conversations
@@ -41,6 +41,11 @@ export const chatHandler = async (req, res) => {
     }
     prompt += `${formattedConversation}\n`; // inc: systemPrompt/summarisedMessages/last10Messages/pineconeContextSnippet
 
+    console.log('================== Prompt pieces ==================');
+    console.log('systemPrompt', systemPrompt);
+    console.log('summarisedMessages', summarisedMessages);
+    console.log('last10Messages', last10Messages);
+    console.log('pineconeContextSnippet', pineconeContextSnippet);
     console.log('================== Final prompt (prompt) ==================');
     console.log(prompt);
 
