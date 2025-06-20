@@ -1,8 +1,9 @@
 import fs from "fs";
 import path from "path";
 
-import { pinecone } from "./client.js";
+import { waitForIndexReady } from "./waitForIndexReady.js";
 import { embeddingModel } from "../googleGeminiClient.js";
+import { pinecone } from "./client.js";
 
 const contextFolderPath = "./src/context";
 
@@ -22,12 +23,12 @@ export async function getEmbedding(text) {
   }
 }
 
-export const uploadChunks = async (fileName) => {
+export const uploadChunks = async (context) => {
   try {
-    // Ensure .txt extension
-    const fullFileName = fileName.endsWith(".txt")
-      ? fileName
-      : fileName + ".txt";
+    // Ensure the context folder exists
+    const fullFileName = context.endsWith(".txt")
+      ? context
+      : context + ".txt";
     const filePath = path.join(contextFolderPath, fullFileName);
 
     if (!fs.existsSync(filePath)) {
@@ -37,10 +38,21 @@ export const uploadChunks = async (fileName) => {
       return;
     }
 
-    const fileText = fs.readFileSync(filePath, "utf-8");
     const indexName = path.basename(fullFileName, ".txt");
-    const index = pinecone.index(indexName);
+    await waitForIndexReady(indexName);
 
+    const indexList = await pinecone.listIndexes();
+    const indexInfo = indexList.indexes.find(idx => idx.name.toLowerCase() === indexName.toLowerCase());
+    if (!indexInfo || !indexInfo.host) {
+      throw new Error(`No host found for index: ${indexName}`);
+    }
+    // console.log('================== Pinecone indexInfo.host ==================');
+    // console.log(indexInfo.host);
+    const index = pinecone.Index(indexName, indexInfo.host);
+    // console.log('================== Pinecone Index ==================');
+    // console.log(index);
+
+    const fileText = fs.readFileSync(filePath, "utf-8");
     const chunks = fileText
       .split("\n\n")
       .filter((chunk) => chunk.trim() !== "");
