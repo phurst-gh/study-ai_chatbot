@@ -25,7 +25,7 @@ export const chatHandler = async (req, res) => {
       pineconeContextSnippet = await getPineconeContext(context, latestUserMessage);
     }
 
-    // Reduce usage of tokens by limiting the 'memory' to the last 10 messages (true memory will need a DB)
+    // Reduce usage of tokens by limiting the 'memory' to the last 10 messages
     const last10Messages = messages.slice(-MAX_MESSAGES);
     const formattedConversation = last10Messages
     .map(m => `${m.sender === 'user' ? 'You' : 'Bot'}: ${m.text}`)
@@ -39,7 +39,7 @@ export const chatHandler = async (req, res) => {
     if (summarisedMessages !== '') {
       prompt += `Summary of earlier conversation: ${summarisedMessages}\n`;
     }
-    prompt += `${formattedConversation}\n`; // inc: systemPrompt/summarisedMessages/last10Messages/pineconeContextSnippet
+    prompt += `${formattedConversation}\n`; // inc: systemPrompt/summarisedMessages/last10Messages/pineconeContextSnippet/formattedConversation
 
     console.log('================== Prompt pieces ==================');
     console.log('systemPrompt', systemPrompt);
