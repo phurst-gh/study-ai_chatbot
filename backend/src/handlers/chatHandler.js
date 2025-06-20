@@ -9,7 +9,7 @@ const systemPrompt = "System: You are a helpful and creative chatbot. Continue t
 export const chatHandler = async (req, res) => {
   try {
     const { messages, context } = req.body;
-    console.log('================== context ==================');
+    console.log('================== Clicked button context ==================');
     console.log(context);
 
     // If there are more than MAX_MESSAGES

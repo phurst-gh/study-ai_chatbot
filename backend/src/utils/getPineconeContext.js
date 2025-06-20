@@ -17,7 +17,7 @@ export const getPineconeContext = async (contextName, userQuery) => {
     const searchResult = await index.query({
       topK: 3, // Get top 3 relevant chunks
       vector: queryVector, // embed the user query
-      includeMetadata: true // Without this Id only get vector IDs and similarity scores — no actual text to show
+      includeMetadata: true // Actual text is stored here (uploadChunks). Without this Id only get vector IDs and similarity scores
     });
 
     console.log('================ Retrieved Context from Pinecone ================');
