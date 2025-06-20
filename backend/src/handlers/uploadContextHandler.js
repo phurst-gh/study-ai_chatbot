@@ -25,7 +25,7 @@ export const uploadContextHandler = async (req, res) => {
       await uploadChunks(context);
     } catch (error) {
       await pinecone.deleteIndex(context);
-      console.error('Error uploading context:', error);
+      console.error('Error uploading context: Index deleted due to failure:', error);
       return res.status(500).json({
         botResponse: `❌ Failed to upload chunks. Index "${context}" was deleted.`,
       });

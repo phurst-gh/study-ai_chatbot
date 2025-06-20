@@ -1,5 +1,6 @@
 import { pinecone } from "./client.js";
 
+// Initialise index creation
 export const createIndexes = async (contextName) => {
   try {
     const { indexes: existingIndexes } = await pinecone.listIndexes();
