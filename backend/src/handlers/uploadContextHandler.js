@@ -1,5 +1,10 @@
+import dotenv from "dotenv";
+
 import { createIndexes } from '../utils/pinecone/createIndexes.js';
 import { uploadChunks } from '../utils/pinecone/uploadChunks.js';
+import { pinecone } from '../utils/pinecone/client.js';
+
+dotenv.config()
 
 export const uploadContextHandler = async (req, res) => {
   const { context } = req.body;
