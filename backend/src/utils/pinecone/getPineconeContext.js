@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 
-import { embeddingModel } from "./googleGeminiClient.js";
-import { pinecone } from "./pinecone/client.js";
+import { embeddingModel } from "../googleGeminiClient.js";
+import { pinecone } from "../../pinecone-client.js";
 
 dotenv.config();
 

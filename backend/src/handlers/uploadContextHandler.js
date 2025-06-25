@@ -1,8 +1,8 @@
 import dotenv from "dotenv";
 
-import { createIndexes } from '../utils/pinecone/createIndexes.js';
-import { uploadChunks } from '../utils/pinecone/uploadChunks.js';
-import { pinecone } from '../utils/pinecone/client.js';
+import { createPineconeIndexes } from '../utils/pinecone/createPineconeIndexes.js';
+import { uploadPineconeChunks } from '../utils/pinecone/uploadPineconeChunks.js';
+import { pinecone } from '../pinecone-client.js';
 
 dotenv.config()
 
@@ -14,7 +14,7 @@ export const uploadContextHandler = async (req, res) => {
   }
 
   try {
-    const indexesCreated = await createIndexes(context);
+    const indexesCreated = await createPineconeIndexes(context);
     if (!indexesCreated) {
       return res.status(200).json({
         botResponse: `⚠️ Context "${context}" already exists. Skipped uploading.`
@@ -22,7 +22,7 @@ export const uploadContextHandler = async (req, res) => {
     }
 
     try {
-      await uploadChunks(context);
+      await uploadPineconeChunks(context);
     } catch (error) {
       await pinecone.deleteIndex(context);
       console.error('Error uploading context: Index deleted due to failure:', error);

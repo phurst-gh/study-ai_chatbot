@@ -1,7 +1,7 @@
-import { pinecone } from "./client.js";
+import { pinecone } from "../../pinecone-client.js";
 
 // Initialise index creation
-export const createIndexes = async (contextName) => {
+export const createPineconeIndexes = async (contextName) => {
   try {
     const { indexes: existingIndexes } = await pinecone.listIndexes();
 

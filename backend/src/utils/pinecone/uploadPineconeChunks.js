@@ -1,19 +1,17 @@
 import fs from "fs";
 import path from "path";
 
-import { waitForIndexReady } from "./waitForIndexReady.js";
+import { waitForPineconeIndexReady } from "./waitForPineconeIndexReady.js";
 import { embeddingModel } from "../googleGeminiClient.js";
-import { pinecone } from "./client.js";
+import { pinecone } from "../../pinecone-client.js";
 
 const contextFolderPath = "./src/context";
 
 export async function getEmbedding(text) {
   try {
     const result = await embeddingModel.embedContent({
-      model: "embedding-001",
       content: {
-        parts: [{ text }],
-        role: "user",
+        parts: [{ text }]
       },
     });
     return result.embedding.values;
@@ -23,9 +21,8 @@ export async function getEmbedding(text) {
   }
 }
 
-export const uploadChunks = async (context) => {
+export const uploadPineconeChunks = async (context) => {
   try {
-    // Ensure the context folder exists
     const fullFileName = context.endsWith(".txt")
       ? context
       : context + ".txt";
@@ -39,7 +36,7 @@ export const uploadChunks = async (context) => {
     }
 
     const indexName = path.basename(fullFileName, ".txt");
-    await waitForIndexReady(indexName);
+    await waitForPineconeIndexReady(indexName);
 
     const indexList = await pinecone.listIndexes();
     const indexInfo = indexList.indexes.find(idx => idx.name.toLowerCase() === indexName.toLowerCase());
@@ -48,7 +45,6 @@ export const uploadChunks = async (context) => {
     }
     // console.log('================== Pinecone indexInfo.host ==================');
     // console.log(indexInfo.host);
-    const index = pinecone.Index(indexName, indexInfo.host);
     // console.log('================== Pinecone Index ==================');
     // console.log(index);
 
@@ -58,6 +54,8 @@ export const uploadChunks = async (context) => {
       .filter((chunk) => chunk.trim() !== "");
 
     console.log(`Uploading ${chunks.length} chunks to index: ${indexName}`);
+
+    const index = pinecone.Index(indexName, indexInfo.host);
 
     for (let i = 0; i < chunks.length; i++) {
       const chunk = chunks[i];

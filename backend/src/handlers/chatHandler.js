@@ -1,10 +1,10 @@
 import { summariseOldMessages } from '../utils/summarise.js';
-import { getPineconeContext } from '../utils/getPineconeContext.js';
+import { getPineconeContext } from '../utils/pinecone/getPineconeContext.js';
 import { chatModel } from '../utils/googleGeminiClient.js';
 
 const MAX_MESSAGES = 10;
 // System prompt to guide the ai (into polite conversation) when using muti-turn conversations
-const systemPrompt = "System: You are a helpful and creative chatbot. Continue the conversation naturally.";
+const systemPrompt = "You are a helpful and creative chatbot. Continue the conversation naturally.";
 
 export const chatHandler = async (req, res) => {
   try {
