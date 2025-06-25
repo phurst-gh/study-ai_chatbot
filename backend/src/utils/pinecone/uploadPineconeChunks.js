@@ -2,24 +2,10 @@ import fs from "fs";
 import path from "path";
 
 import { waitForPineconeIndexReady } from "./waitForPineconeIndexReady.js";
-import { embeddingModel } from "../googleGeminiClient.js";
+import { getPineconeEmbedding } from "./getPineconeEmbedding.js";
 import { pinecone } from "../../pinecone-client.js";
 
 const contextFolderPath = "./src/context";
-
-export async function getEmbedding(text) {
-  try {
-    const result = await embeddingModel.embedContent({
-      content: {
-        parts: [{ text }]
-      },
-    });
-    return result.embedding.values;
-  } catch (err) {
-    console.error("❌ Failed to embed chunk:", err.message);
-    return [];
-  }
-}
 
 export const uploadPineconeChunks = async (context) => {
   try {
@@ -60,7 +46,7 @@ export const uploadPineconeChunks = async (context) => {
     for (let i = 0; i < chunks.length; i++) {
       const chunk = chunks[i];
       const id = `${indexName}-chunk-${i.toString().padStart(4, "0")}`;
-      const embedding = await getEmbedding(chunk);
+      const embedding = await getPineconeEmbedding(chunk);
 
       const record = {
         id,

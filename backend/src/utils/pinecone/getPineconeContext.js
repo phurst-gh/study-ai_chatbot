@@ -1,17 +1,13 @@
 import dotenv from "dotenv";
 
-import { embeddingModel } from "../googleGeminiClient.js";
+import { getPineconeEmbedding } from "./getPineconeEmbedding.js";
 import { pinecone } from "../../pinecone-client.js";
 
 dotenv.config();
 
 export const getPineconeContext = async (contextName, userQuery) => {
   try {
-    const embeddingResult = await embeddingModel.embedContent({
-      content: {
-        parts: [{ text: userQuery }],
-      },
-    });
+    const embeddingResult = await getPineconeEmbedding(userQuery);
     const queryVector = embeddingResult.embedding.values;
     const index = pinecone.index(contextName);
     const searchResult = await index.query({
