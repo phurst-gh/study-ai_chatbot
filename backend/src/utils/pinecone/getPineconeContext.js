@@ -12,7 +12,7 @@ export const getPineconeContext = async (contextName, userQuery) => {
     const index = pinecone.index(contextName);
     const searchResult = await index.query({
       topK: 3, // Get top 3 relevant chunks
-      vector: queryVector, // embed the user query
+      vector: queryVector, // embedded user query
       includeMetadata: true // Actual text is stored here (uploadChunks). Without this Id only get vector IDs and similarity scores
     });
 

@@ -1,6 +1,6 @@
 import { pinecone } from "../../pinecone-client.js";
 
-// Initialise index creation
+// Initialise index creation: https://docs.pinecone.io/reference/api/2025-01/control-plane/create_index
 export const createPineconeIndexes = async (contextName) => {
   try {
     const { indexes: existingIndexes } = await pinecone.listIndexes();
@@ -12,8 +12,8 @@ export const createPineconeIndexes = async (contextName) => {
 
     await pinecone.createIndex({
       name: contextName,
-      dimension: 768,
-      metric: "cosine",
+      dimension: 768, // vector lengths to be embed
+      metric: "cosine", // similarity metric (cosine): measures angle between vectors (how similar in direction)
       spec: {
         serverless: {
           cloud: "aws",
