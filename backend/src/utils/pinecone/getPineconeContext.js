@@ -7,8 +7,7 @@ dotenv.config();
 
 export const getPineconeContext = async (contextName, userQuery) => {
   try {
-    const embeddingResult = await getPineconeEmbedding(userQuery);
-    const queryVector = embeddingResult.embedding.values;
+    const queryVector = await getPineconeEmbedding(userQuery);
     const index = pinecone.index(contextName);
     const searchResult = await index.query({
       topK: 3, // Get top 3 relevant chunks

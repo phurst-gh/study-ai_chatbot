@@ -29,10 +29,6 @@ export const uploadPineconeChunks = async (context) => {
     if (!indexInfo || !indexInfo.host) {
       throw new Error(`No host found for index: ${indexName}`);
     }
-    // console.log('================== Pinecone indexInfo.host ==================');
-    // console.log(indexInfo.host);
-    // console.log('================== Pinecone Index ==================');
-    // console.log(index);
 
     const fileText = fs.readFileSync(filePath, "utf-8");
     const chunks = fileText
