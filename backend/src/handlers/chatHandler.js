@@ -1,6 +1,6 @@
 import { summariseOldMessages } from '../utils/summarise.js';
 import { getPineconeContext } from '../utils/pinecone/getPineconeContext.js';
-import { chatModel } from '../utils/googleGeminiClient.js';
+import { chatModel } from '../googleGeminiClient.js';
 
 const MAX_MESSAGES = 10;
 // System prompt to guide the ai (into polite conversation) when using muti-turn conversations
