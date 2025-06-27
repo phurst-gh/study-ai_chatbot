@@ -7,8 +7,8 @@ import { pinecone } from "../../pinecone-client.js";
 export async function waitForPineconeIndexReady(indexName, timeout = 60000, interval = 2000) {
   const start = Date.now();
   while (Date.now() - start < timeout) {
-    const status = await pinecone.describeIndex(indexName); // up-to-date status
-    if (status.status.ready) {
+    const indexInfo = await pinecone.describeIndex(indexName); // up-to-date status
+    if (indexInfo.status.ready) {
       console.log("✅ Index is ready.");
       return;
     }
