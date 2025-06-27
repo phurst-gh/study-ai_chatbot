@@ -20,9 +20,12 @@ function App() {
     try {
       const response = await axios.post("http://localhost:3000/chat", {
         messages: newMessages,
-        context: selectedContext
+        context: selectedContext,
       });
-      setMessages([...newMessages, { sender: "bot", text: response.data.reply }]);
+      setMessages((prev) => [
+        ...prev,
+        { sender: "bot", text: response.data.reply },
+      ]);
     } catch (error) {
       console.error("Error:", error);
     }
@@ -30,18 +33,21 @@ function App() {
 
   const uploadContext = async (contextName) => {
     try {
-      const response = await axios.post('http://localhost:3000/upload-context', { context: contextName });
+      const response = await axios.post(
+        "http://localhost:3000/upload-context",
+        { context: contextName }
+      );
 
       setSelectedContext(contextName);
 
       if (response.data?.botResponse) {
         setMessages((prev) => [
           ...prev,
-          { sender: 'bot', text: response.data.botResponse },
+          { sender: "bot", text: response.data.botResponse },
         ]);
       }
     } catch (err) {
-      console.error('Error uploading context:', err);
+      console.error("Error uploading context:", err);
     }
   };
 
@@ -53,17 +59,16 @@ function App() {
           const { sender, text } = message;
 
           return (
-          <div
-            key={index}
-            className={
-              sender === "user" ? "user-message" : "bot-message"
-            }
-          >
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>
-              {`${sender === "user" ? "**You**" : "**Bot**"}: ${text}`}
-            </ReactMarkdown>
-          </div>
-        )})}
+            <div
+              key={index}
+              className={sender === "user" ? "user-message" : "bot-message"}
+            >
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {`${sender === "user" ? "**You**" : "**Bot**"}: ${text}`}
+              </ReactMarkdown>
+            </div>
+          );
+        })}
       </div>
 
       <div className="input-container">
@@ -77,8 +82,12 @@ function App() {
         />
 
         <div className="context-buttons-container">
-          <button onClick={() => uploadContext("the-book-of-five-rings")}>The Book of 5 Rings</button>
-          <button onClick={() => uploadContext("pokemon")}>Pokedex - Original 151</button>
+          <button onClick={() => uploadContext("the-book-of-five-rings")}>
+            The Book of 5 Rings
+          </button>
+          <button onClick={() => uploadContext("pokemon")}>
+            Pokedex - Original 151
+          </button>
         </div>
       </div>
     </div>
