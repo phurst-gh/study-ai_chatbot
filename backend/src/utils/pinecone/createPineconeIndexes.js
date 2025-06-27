@@ -12,7 +12,7 @@ export const createPineconeIndexes = async (contextName) => {
 
     await pinecone.createIndex({
       name: contextName,
-      dimension: 768, // vector lengths to be embed
+      dimension: 768, // vector length
       metric: "cosine", // similarity metric (cosine): measures angle between vectors (how similar in direction)
       spec: {
         serverless: {
