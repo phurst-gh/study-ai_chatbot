@@ -21,13 +21,12 @@ export const uploadPineconeChunks = async (context) => {
       return;
     }
 
-    const indexName = path.basename(fullFileName, ".txt");
-    await waitForPineconeIndexReady(indexName);
+    await waitForPineconeIndexReady(context);
 
     const indexList = await pinecone.listIndexes();
-    const indexInfo = indexList.indexes.find(idx => idx.name.toLowerCase() === indexName.toLowerCase());
+    const indexInfo = indexList.indexes.find(idx => idx.name.toLowerCase() === context.toLowerCase());
     if (!indexInfo || !indexInfo.host) {
-      throw new Error(`No host found for index: ${indexName}`);
+      throw new Error(`No host found for index: ${context}`);
     }
 
     const fileText = fs.readFileSync(filePath, "utf-8");
@@ -35,13 +34,13 @@ export const uploadPineconeChunks = async (context) => {
       .split("\n\n")
       .filter((chunk) => chunk.trim() !== "");
 
-    console.log(`Uploading ${chunks.length} chunks to index: ${indexName}`);
+    console.log(`Uploading ${chunks.length} chunks to index: ${context}`);
 
-    const index = pinecone.Index(indexName, indexInfo.host);
+    const indexHandle = pinecone.Index(context, indexInfo.host);
 
     for (let i = 0; i < chunks.length; i++) {
       const chunk = chunks[i];
-      const id = `${indexName}-chunk-${i.toString().padStart(4, "0")}`;
+      const id = `${context}-chunk-${i.toString().padStart(4, "0")}`;
       const embedding = await getPineconeEmbedding(chunk);
 
       const record = {
@@ -53,11 +52,11 @@ export const uploadPineconeChunks = async (context) => {
         },
       };
 
-      await index.upsert([record]);
+      await indexHandle.upsert([record]);
       console.log(`Uploaded: ${id}`);
     }
 
-    console.log(`✅ Context "${indexName}" uploaded and indexed!`);
+    console.log(`✅ Context "${context}" uploaded and indexed!`);
   } catch (error) {
     console.error("❌ Error in uploadChunks:", error);
     throw error;
