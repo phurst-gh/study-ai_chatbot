@@ -1,4 +1,4 @@
-import { embeddingModel } from "../../googleGeminiClient.js";
+import { embeddingModel } from "../../google-gemini-client.js";
 
 
 export async function getPineconeEmbedding(itemToEmbed) {

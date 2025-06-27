@@ -1,6 +1,6 @@
 import { summariseOldMessages } from '../utils/summarise.js';
 import { getPineconeContext } from '../utils/pinecone/getPineconeContext.js';
-import { chatModel } from '../googleGeminiClient.js';
+import { chatModel } from '../google-gemini-client.js';
 
 const MAX_MESSAGES = 10;
 // System prompt to guide the ai (into polite conversation) when using muti-turn conversations
@@ -15,7 +15,7 @@ export const chatHandler = async (req, res) => {
     // If there are more than MAX_MESSAGES
     let summarisedMessages = '';
     if (messages.length > MAX_MESSAGES) {
-      summarisedMessages = await summariseOldMessages(messages, MAX_MESSAGES, chatModel);
+      summarisedMessages = await summariseOldMessages(messages, MAX_MESSAGES);
     }
 
     // If the user clicks a context button
