@@ -9,6 +9,14 @@ Learning AI Engineering: AI-Chatbot
 
 ✅ Frontend: React | Backend: Node.js + Express
 
+## Structure
+
+### Why use workspaces
+
+- Gives you one top-level install (faster, no duplicate deps),
+- Lets you share configs (TS base, ESLint),
+- Run cross-project scripts (build/typecheck all) cleanly.
+
 ## Backend
 
 ### Packages + Docs
