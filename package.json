@@ -1,0 +1,25 @@
+{
+  "name": "ai-chatbot-monorepo",
+  "private": true,
+  "packageManager": "pnpm@8.6.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel --stream run dev",
+    "dev:fe": "pnpm -r --filter frontend dev",
+    "dev:be": "pnpm -r --filter backend dev",
+    "build": "pnpm -r run typecheck && pnpm -r run build",
+    "build:fast": "pnpm -r --parallel run build",
+    "typecheck": "pnpm -r run typecheck",
+    "lint": "pnpm -r run lint",
+    "format": "pnpm -r run format",
+    "clean": "pnpm -r run clean || true"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
+  }
+}
