@@ -4,7 +4,7 @@ import { embeddingModel } from "../../google-gemini-client.js";
 export async function getPineconeEmbedding(itemToEmbed) {
   try {
     const result = await embeddingModel.embedContent({
-      model: "embedding-001",
+      model: "gemini-embedding-001",
       content: {
         parts: [{ text: itemToEmbed }]
       },
